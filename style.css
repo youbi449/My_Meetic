@@ -1,0 +1,191 @@
+
+
+.mdr p{
+    text-align: center;
+}
+input:focus {
+  background-color: lightblue;
+}
+.erreur{
+    text-align: center;
+    position: relative;
+    top: 55em;
+    color:red;
+}
+img{
+    height: 100px;
+}
+
+.info p{
+    margin-left: 50%;
+}
+.valide{
+        text-align: center;
+    position: relative;
+    top: 55em;
+    color:green;
+}
+
+.result{
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+.slider {
+    /*! width: 627px; */
+    overflow: hidden;
+    margin-top: 100px;
+    /*! height: 1000px; */
+    width: 100%;
+}
+
+.next{
+    margin-left: 50%
+}
+.prev{
+    margin-left: 15%;
+}
+
+.slider ul li {
+    margin-left: 40%;
+}
+.dropdown{
+    display: block;
+    width: 13%;
+}
+
+
+
+.dropdown-content{
+     background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content ul li{
+      color: black;
+  padding: 12px 16px;
+  list-style: none;
+}
+
+.dropdown-content ul li:hover{
+    background-color: #f1f1f1;
+}
+
+.dropdown-content a{
+    text-decoration: none;
+}
+
+.root{
+    padding: 0px;
+}
+
+.subform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+    width: 35%;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+input[type=text], input[type=password], input[type=mail],input[type=date]  {
+  /*! width: 100%; */
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#inscription {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.recherche{
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forms form{
+    display: none;
+}
+
+.forms form:target{
+    display: block;
+}
+
+.onglet ul li,.onglet ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.onglet ul li{
+    border: 1px solid grey;
+    padding: 2px;
+    display :block;
+    width: 20%;
+    float: left;
+}
+
+.forms{
+    border: 1px solid grey;
+    padding: 2px;
+    float: left;
+}
+
+	.login-form {
+		width: 340px;
+    	margin: 50px auto;
+	}
+    .login-form form {
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .btn {        
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+.alert{
+    position: relative;
+    width: 50%;
+    margin: 2%;
+}
+.rechercheZouk{
+    width: 20%;
+}
